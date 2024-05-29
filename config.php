@@ -1,5 +1,2 @@
 <?php
-$db_host = "localhost";
-$db_name = "ajaxcrud";
-$db_user = "user";
-$db_password = "";
+$con = mysqli_connect("localhost", "root", "", "ajaxcrud");
