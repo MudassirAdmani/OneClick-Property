@@ -1,8 +1,5 @@
 <?php
-
-$con = mysqli_connect("localhost","root","","realestatephp");
-	if (mysqli_connect_errno())
-	{
-		echo "Failed to connect to MySQL: " . mysqli_connect_error();
-	}
-?>
+$db_host = "localhost";
+$db_name = "ajaxcrud";
+$db_user = "user";
+$db_password = "";
